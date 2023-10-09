@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4Ll+0+Dr+wozwoddNPF8LRL+yeC4bT6F1Y35UhB6u7UfALvjziPLyvUFWdR0FRtzWhFawN6JohbjFFbwq4ZeMg==",
+  "dgSpecHash": "sQFlyiF2zuDE/lB+mUIS08+s80+Ui26lDKXZ8RHx62YqehmvrjXB0kwexAh7G6Ki3BC8mXclnIZRm1KDJ6rxew==",
   "success": true,
-  "projectFilePath": "D:\\Project\\Inventroy_System_API\\Inventroy_System_API\\Inventroy_System_API.csproj",
+  "projectFilePath": "D:\\Project\\Inventory_Managment_System_API\\Inventroy_System_API\\Inventroy_System_API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\HF\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\HF\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",

@@ -3110,11 +3110,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Project\\Inventroy_System_API\\Inventroy_System_API\\Inventroy_System_API.csproj",
+      "projectUniqueName": "D:\\Project\\Inventory_Managment_System_API\\Inventroy_System_API\\Inventroy_System_API.csproj",
       "projectName": "Inventroy_System_API",
-      "projectPath": "D:\\Project\\Inventroy_System_API\\Inventroy_System_API\\Inventroy_System_API.csproj",
+      "projectPath": "D:\\Project\\Inventory_Managment_System_API\\Inventroy_System_API\\Inventroy_System_API.csproj",
       "packagesPath": "C:\\Users\\HF\\.nuget\\packages\\",
-      "outputPath": "D:\\Project\\Inventroy_System_API\\Inventroy_System_API\\obj\\",
+      "outputPath": "D:\\Project\\Inventory_Managment_System_API\\Inventroy_System_API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\HF\\AppData\\Roaming\\NuGet\\NuGet.Config",
