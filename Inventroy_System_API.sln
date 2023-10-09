@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33530.505
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inventroy_System_API", "Inventroy_System_API\Inventroy_System_API.csproj", "{4CD3D232-E9B9-404F-9EBC-7ED9676B7CED}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4CD3D232-E9B9-404F-9EBC-7ED9676B7CED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CD3D232-E9B9-404F-9EBC-7ED9676B7CED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CD3D232-E9B9-404F-9EBC-7ED9676B7CED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CD3D232-E9B9-404F-9EBC-7ED9676B7CED}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8800037E-3791-49C0-AB22-540EB7BBB035}
+	EndGlobalSection
+EndGlobal
