@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace Inventroy_System_API.Controllers
 {
 
-    [Route("api/controller")]
+    [Route("api/[controller]")]
     [ApiController]
     public class ProductController : ControllerBase
     {
@@ -14,13 +14,14 @@ namespace Inventroy_System_API.Controllers
         {
             _productRepository = productRepository;
         }
-        [HttpGet("")]
+        [Route("GetAllProducts")]
+        [HttpGet]
         public async Task<IActionResult> GetAllProduct()
         {
             var products = await _productRepository.GetAllProductAsyn();
             return Ok(products);
         }
 
-        }
-  
+    }
+
 }
