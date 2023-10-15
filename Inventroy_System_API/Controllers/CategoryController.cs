@@ -39,7 +39,7 @@ namespace Inventroy_System_API.Controllers
         public async Task<IActionResult> AddNewCategory([FromBody]CategoryModel categoryModel)
         {
             var id = await _categoryRepository.AddCategoryAsync(categoryModel);
-            return CreatedAtAction(nameof(GetCategoryById), new {id=id,controller ="category"},id );
+            return CreatedAtAction(nameof(GetCategoryById), new {id=id,controller ="Category"},id );
         }
 
         [Route("UpdateCategory")]

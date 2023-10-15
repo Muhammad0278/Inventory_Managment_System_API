@@ -9,6 +9,7 @@ namespace Inventroy_System_API.Helpers
         public ApplicationMapper() 
         {
             CreateMap<Category, CategoryModel>().ReverseMap();
+            CreateMap<Products, ProductModel>().ReverseMap();
         }
 
 
