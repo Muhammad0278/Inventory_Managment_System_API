@@ -1,4 +1,5 @@
-﻿using Inventroy_System_API.Data;
+﻿using AutoMapper;
+using Inventroy_System_API.Data;
 using Inventroy_System_API.Models;
 using Microsoft.EntityFrameworkCore;
 
@@ -7,10 +8,12 @@ namespace Inventroy_System_API.Repository
     public class CategoryRepository : ICategoryRepository
     {
         private readonly AppDBContext _context;
+        private readonly IMapper _mapper;
 
-        public CategoryRepository(AppDBContext context)
+        public CategoryRepository(AppDBContext context, IMapper mapper)
         {
             _context = context;
+            _mapper = mapper;
         }
         public async Task<List<CategoryModel>> GetAllCategory()
         {
@@ -25,13 +28,15 @@ namespace Inventroy_System_API.Repository
         }
         public async Task<CategoryModel> GetCategoryByIdAsync(int CategoryId)
         {
-            var records = await _context.tbl_Category.Where(x => x.CategoryId == CategoryId).Select(x => new CategoryModel()
-            {
-                CategoryId = x.CategoryId,
-                Name = x.Name,
-                Description = x.Description,
-            }).FirstOrDefaultAsync();
-            return records;
+            //var records = await _context.tbl_Category.Where(x => x.CategoryId == CategoryId).Select(x => new CategoryModel()
+            //{
+            //    CategoryId = x.CategoryId,
+            //    Name = x.Name,
+            //    Description = x.Description,
+            //}).FirstOrDefaultAsync();
+            //return records;
+            var category = await _context.tbl_Category.FindAsync(CategoryId);
+            return _mapper.Map<CategoryModel>(category);
         }
         public async Task<int> AddCategoryAsync(CategoryModel CategoryModel)
         {

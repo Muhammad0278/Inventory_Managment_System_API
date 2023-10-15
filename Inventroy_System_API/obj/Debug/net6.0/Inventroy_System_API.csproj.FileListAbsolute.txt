@@ -172,3 +172,5 @@ D:\Project\Inventory_Managment_System_API\Inventroy_System_API\obj\Debug\net6.0\
 D:\Project\Inventory_Managment_System_API\Inventroy_System_API\obj\Debug\net6.0\Inventroy_System_API.pdb
 D:\Project\Inventory_Managment_System_API\Inventroy_System_API\obj\Debug\net6.0\Inventroy_System_API.genruntimeconfig.cache
 D:\Project\Inventory_Managment_System_API\Inventroy_System_API\obj\Debug\net6.0\ref\Inventroy_System_API.dll
+D:\Project\Inventory_Managment_System_API\Inventroy_System_API\bin\Debug\net6.0\AutoMapper.dll
+D:\Project\Inventory_Managment_System_API\Inventroy_System_API\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
