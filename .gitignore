@@ -1,0 +1,13 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/Inventroy_System_API/bin/Debug/net6.0/Inventroy_System_API.dll
+/Inventroy_System_API/bin/Debug/net6.0/Inventroy_System_API.pdb
+/Inventroy_System_API/obj/Debug/net6.0/Inventroy_System_API.csproj.CoreCompileInputs.cache
+/Inventroy_System_API/obj/Debug/net6.0/Inventroy_System_API.pdb
+/Inventroy_System_API/obj/Debug/net6.0/Inventroy_System_API.dll
+/Inventroy_System_API/obj/Debug/net6.0/ref/Inventroy_System_API.dll
+/Inventroy_System_API/obj/Debug/net6.0/refint/Inventroy_System_API.dll
+/.vs/ProjectEvaluation/inventroy_system_api.metadata.v6.1
+/.vs/ProjectEvaluation/inventroy_system_api.projects.v6.1
