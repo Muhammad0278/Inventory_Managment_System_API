@@ -11,6 +11,7 @@ builder.Services.AddDbContext<AppDBContext>( options => options.UseSqlServer("Se
 builder.Services.AddControllers();
 builder.Services.AddTransient<IProductRepository, ProductRepository>();
 builder.Services.AddTransient<ICategoryRepository, CategoryRepository>();
+builder.Services.AddTransient<ISupplierRepository, SupplierRepository>();
 builder.Services.AddAutoMapper(typeof(Program));
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();

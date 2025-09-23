@@ -1,4 +1,4 @@
-﻿using Inventroy_System_API.Data;
+﻿ using Inventroy_System_API.Data;
 
 namespace Inventroy_System_API.Models
 {
